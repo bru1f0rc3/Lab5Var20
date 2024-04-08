@@ -8,7 +8,7 @@ namespace Lab5Variant20MyTests
     public class UnitTest1
     {
         [TestMethod]
-        public void Task1Matrix_Enter_1_to_4_Return4_45()
+        public void Task1Matrix_Enter_RandomMatrix_1_to_6_Return4_45()
         {
             double[,] matrix = new double[,]
             {
@@ -26,7 +26,7 @@ namespace Lab5Variant20MyTests
         }
 
         [TestMethod]
-        public void Task1Matrix_Enter_2_to_71_Return_8_50()
+        public void Task1Matrix_Enter_RandomMatrix1_to_6_EndMatrix71_Return_8_50()
         {
             double[,] matrix = new double[,]
             {
@@ -43,7 +43,7 @@ namespace Lab5Variant20MyTests
             Assert.AreEqual(expected, actual);
         }
         [TestMethod]
-        public void Task1Matrix_Enter_5_to_61_Return_8_50()
+        public void Task1Matrix_Enter_RandomMatrix1_to_6_EndMatrix61_Return_8_50()
         {
             double[,] matrix = new double[,]
             {
@@ -60,7 +60,7 @@ namespace Lab5Variant20MyTests
             Assert.AreEqual(expected, actual);
         }
         [TestMethod]
-        public void Task1Matrix_Enter_8_to_42_Return_2_85()
+        public void Task1Matrix_Enter_RandomMatrix1_to_6_EndMatrix42_Return_2_85()
         {
             double[,] matrix = new double[,]
             {
@@ -77,7 +77,7 @@ namespace Lab5Variant20MyTests
             Assert.AreEqual(expected, actual);
         }
         [TestMethod]
-        public void Task1Matrix_Enter_9_to_58_Return_1_66()
+        public void Task1Matrix_Enter_RandomMatrix1_to_6_EndMatrix58_Return_1_66()
         {
             double[,] matrix = new double[,]
             {
